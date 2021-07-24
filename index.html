@@ -21,7 +21,7 @@
         <nav class="navigation">
           <ul class="nav-links list">
             <li class="navigation-item">
-              <a href="./index.html">Agencja</a>
+              <a class="navigation-item-link" href="./index.html">Agencja</a>
             </li>
             <li class="navigation-item">
               <a href="./portfolio.html">Portfolio</a>
@@ -53,7 +53,7 @@
       <section class="effective-solutions section">
         <div class="container">
           <h1 class="effective-solutions-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="order-service-button">Zamów usługę</button>
+          <button type="button" class="order-service-button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
 
@@ -112,17 +112,20 @@
       <!-- WHAT DO WE DO -->
       <section class="what-do-we-do section-only-bottom">
         <div class="container">
-          <h2 class="what-do-we-do-title">Czym się zajmujemy</h2>
+          <h2 class="what-do-we-do-title">Czym się zajmujemy</h2>
           <div>
             <ul class="what-do-we-do-list list">
               <li class="what-do-we-do-list-item">
                 <img src="./images/whatdowedo/whatdowedo-img-1.jpg" alt="a person writing on a keyboard" width="370" height="294" />
+                <p class="what-do-we-do-label">Aplikacje komputerowe</p>
               </li>
               <li class="what-do-we-do-list-item">
                 <img src="./images/whatdowedo/whatdowedo-img-2.jpg" alt="a person holding a mobile phone" width="370" height="294" />
+                <p class="what-do-we-do-label">Aplikacje mobilne</p>
               </li>
               <li class="what-do-we-do-list-item">
                 <img src="./images/whatdowedo/whatdowedo-img-3.jpg" alt="a person holding a tablet" width="370" height="294" />
+                <p class="what-do-we-do-label">Rozwiązania graficzne</p>
               </li>
             </ul>
           </div>
@@ -318,6 +321,13 @@
           </ul>
         </div>
       </section>
+
+      <!-- MODAL WINDOW -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal-box animate1">
+          <button type="button" class="close-btn" data-modal-close>X</button>
+        </div>
+      </div>
     </main>
 
     <!-- FOOTER -->
@@ -374,5 +384,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
