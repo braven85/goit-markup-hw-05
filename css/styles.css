@@ -741,7 +741,7 @@ img {
   animation-duration: 700ms;
   animation-iteration-count: 1;
   animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-delay: 0ms;
   top: 0;
   left: 0;
