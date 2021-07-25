@@ -714,7 +714,6 @@ img {
   justify-content: center;
   transition-duration: 250ms;
   transition-timing-function: linear;
-  transition-delay: 0;
 }
 
 .modal-box {
@@ -728,7 +727,6 @@ img {
   transition-property: transform;
   transition-duration: 500ms;
   transition-timing-function: linear;
-  transition-delay: 0;
 }
 
 .is-hidden .modal-box {
